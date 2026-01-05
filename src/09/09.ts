@@ -98,11 +98,11 @@ export function updateCompany(u: UserWithLAptopType & WithCompaniesType, id: num
     }
 }
 
-export const updateCompany2 = (companies: {}, userName: string, companyID: number, newTitle: string) => {
+// export const updateCompany2 = (companies: {}, userName: string, companyID: number, newTitle: string) => {
 
-    let companyCopy = { ...companies }
-    companyCopy[userName] = companyCopy[userName].map(c => c.id === companyID ? { ...c, title: newTitle } : c)
+//     let companyCopy = { ...companies }
+//     companyCopy[userName] = companyCopy[userName].map(c => c.id === companyID ? { ...c, title: newTitle } : c)
 
 
-    return companyCopy
-}
+//     return companyCopy
+// }
